@@ -7,7 +7,6 @@ const sites = [
   }
 ]
 
-
 async function createSites() {
     outputStr = "";
     sites.forEach((element, index) => {
