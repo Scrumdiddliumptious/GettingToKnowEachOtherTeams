@@ -30,13 +30,13 @@ const team = [
   },
   {
     "name": "Piwoni, Justina",
-    "url": "https://polite-glacier-0ddda8210.2.azurestaticapps.net",
-    "githuburl": "https://github.com/Scrumdiddliumptious/GettingToKnowEachOtherTeams"
+    "url": "https://red-bush-0fa21f910.2.azurestaticapps.net",
+    "githuburl": "https://github.com/jpiwoni"
   },
   {
     "name": "Groppe, Katherine",
-    "url": "https://polite-glacier-0ddda8210.2.azurestaticapps.net",
-    "githuburl": "https://github.com/Scrumdiddliumptious/GettingToKnowEachOtherTeams"
+    "url": "https://ambitious-wave-0af3bdf10.2.azurestaticapps.net",
+    "githuburl": "https://github.com/kgroppe"
   },
 ]
 
@@ -60,7 +60,7 @@ createSites();
 
 async function createTeam() {
     outputStr = "";
-    sites.forEach((element, index) => {
+    team.forEach((element, index) => {
         outputStr += "<tr>";
         outputStr += `<td>${element.name}</td>`;
         outputStr += `<td><a href="${element.url}" target="_blank">${element.url}</a></td>`;
