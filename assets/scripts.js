@@ -10,35 +10,32 @@ const sites = [
     "url": "https://polite-glacier-0ddda8210.2.azurestaticapps.net",
     "date": "2023-02-15",
     "githuburl": "https://github.com/Scrumdiddliumptious/GettingToKnowEachOtherTeams"
-  },
+  }
+]
+const team = [
   {
     "name": "Koldoff, Collin",
     "url": "https://gentle-dune-08ef7f410.2.azurestaticapps.net",
-    "date": "2023-02-18",
     "githuburl": "https://github.com/collink2451"
   },
   {
     "name": "Leiteritz, Ryan",
     "url": "https://orange-sand-0fa6abe10.2.azurestaticapps.net/",
-    "date": "2023-02-18",
     "githuburl": "https://github.com/rleiteritz"
   },
   {
     "name": "Lange, Nathan",
-    "url": "https://polite-glacier-0ddda8210.2.azurestaticapps.net",
-    "date": "2023-02-15",
-    "githuburl": "https://github.com/Scrumdiddliumptious/GettingToKnowEachOtherTeams"
+    "url": "https://thankful-moss-0d9928510.2.azurestaticapps.net/",
+    "githuburl": "https://github.com/nathanLanger"
   },
   {
     "name": "Piwoni, Justina",
     "url": "https://polite-glacier-0ddda8210.2.azurestaticapps.net",
-    "date": "2023-02-15",
     "githuburl": "https://github.com/Scrumdiddliumptious/GettingToKnowEachOtherTeams"
   },
   {
     "name": "Groppe, Katherine",
     "url": "https://polite-glacier-0ddda8210.2.azurestaticapps.net",
-    "date": "2023-02-15",
     "githuburl": "https://github.com/Scrumdiddliumptious/GettingToKnowEachOtherTeams"
   },
 ]
@@ -60,6 +57,23 @@ async function createSites() {
     $("#sites").html(outputStr);
 }
 createSites();
+
+async function createTeam() {
+    outputStr = "";
+    sites.forEach((element, index) => {
+        outputStr += "<tr>";
+        outputStr += `<td>${element.name}</td>`;
+        outputStr += `<td><a href="${element.url}" target="_blank">${element.url}</a></td>`;
+        outputStr += `<td>
+			<a class="btn btn-outline-light" href="${element.url}" target="_blank"><i class="fa-solid fa-eye"></i></a>
+			<a class="btn btn-outline-light" href="${element.githuburl}" target="_blank"><i class="fa-brands fa-github"></i></a>
+			</td>`;
+        outputStr += "</tr>";
+    });
+    $("#team").html(outputStr);
+}
+createTeam();
+
 
 $(document).on('keypress', function (e) {
     if (e.which === 46) {
