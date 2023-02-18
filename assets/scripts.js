@@ -18,19 +18,19 @@ const sites = [
     "githuburl": "https://github.com/collink2451"
   },
   {
-    "name": "Piwoni, Justina",
-    "url": "https://polite-glacier-0ddda8210.2.azurestaticapps.net",
-    "date": "2023-02-15",
-    "githuburl": "https://github.com/Scrumdiddliumptious/GettingToKnowEachOtherTeams"
-  },
-  {
     "name": "Leiteritz, Ryan",
-    "url": "https://polite-glacier-0ddda8210.2.azurestaticapps.net",
-    "date": "2023-02-15",
-    "githuburl": "https://github.com/Scrumdiddliumptious/GettingToKnowEachOtherTeams"
+    "url": "https://orange-sand-0fa6abe10.2.azurestaticapps.net/",
+    "date": "2023-02-18",
+    "githuburl": "https://github.com/rleiteritz"
   },
   {
     "name": "Lange, Nathan",
+    "url": "https://polite-glacier-0ddda8210.2.azurestaticapps.net",
+    "date": "2023-02-15",
+    "githuburl": "https://github.com/Scrumdiddliumptious/GettingToKnowEachOtherTeams"
+  },
+  {
+    "name": "Piwoni, Justina",
     "url": "https://polite-glacier-0ddda8210.2.azurestaticapps.net",
     "date": "2023-02-15",
     "githuburl": "https://github.com/Scrumdiddliumptious/GettingToKnowEachOtherTeams"
