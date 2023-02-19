@@ -4,12 +4,6 @@ const sites = [
     "url": "https://orange-cliff-0f3af1010.2.azurestaticapps.net",
     "date": "2023-02-06",
     "githuburl": "https://github.com/Scrumdiddliumptious/GettingToKnowEachOtherTeams"
-  },
-  {
-    "name": "GettingToKnowEachOtherTeams-2",
-    "url": "https://polite-glacier-0ddda8210.2.azurestaticapps.net",
-    "date": "2023-02-15",
-    "githuburl": "https://github.com/Scrumdiddliumptious/GettingToKnowEachOtherTeams"
   }
 ]
 const team = [
