@@ -4,6 +4,18 @@ const sites = [
     "url": "https://orange-cliff-0f3af1010.2.azurestaticapps.net",
     "date": "2023-02-06",
     "githuburl": "https://github.com/Scrumdiddliumptious/GettingToKnowEachOtherTeams"
+  },
+  {
+    "name": "Health Risk Calculator Client",
+    "url": "https://lively-stone-0c2b84410.2.azurestaticapps.net/",
+    "date": "2023-02-20",
+    "githuburl": "https://github.com/Scrumdiddliumptious/HealthRiskCalculatorStatic"
+  },
+  {
+    "name": "Health Risk Calculator API",
+    "url": "https://lively-stone-0c2b84410.2.azurestaticapps.net/",
+    "date": "2023-02-20",
+    "githuburl": "https://github.com/Scrumdiddliumptious/HealthRiskCalculatorApi"
   }
 ]
 const team = [
