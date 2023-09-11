@@ -30,11 +30,6 @@ const team = [
     "githuburl": "https://github.com/rleiteritz"
   },
   {
-    "name": "Lange, Nathan",
-    "url": "https://thankful-moss-0d9928510.2.azurestaticapps.net/",
-    "githuburl": "https://github.com/nathanLanger"
-  },
-  {
     "name": "Piwoni, Justina",
     "url": "https://red-bush-0fa21f910.2.azurestaticapps.net",
     "githuburl": "https://github.com/jpiwoni"
