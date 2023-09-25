@@ -11,8 +11,6 @@ Katherine Groppe (katherinergroppe@lewisu.edu)
 
 Ryan Leiteritz (ryanpleiteritz@lewisu.edu)
 
-Nathan Lange (nathandlange@lewisu.edu)
-
 
 ### Azure URLs:
 
